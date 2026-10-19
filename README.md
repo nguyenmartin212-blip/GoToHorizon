@@ -1,16 +1,65 @@
-# React + Vite
+# GoToHorizon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Personalized Travel Recommendation & Vietnam Knowledge Map
 
-Currently, two official plugins are available:
+GoToHorizon là dự án xây dựng hệ thống gợi ý địa điểm du lịch cá nhân hóa kết hợp với bản đồ tri thức Việt Nam.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Mục tiêu của hệ thống là hỗ trợ người dùng khám phá các địa điểm phù hợp với sở thích cá nhân, đồng thời cung cấp thông tin văn hóa, lịch sử và mối liên hệ giữa các điểm đến theo cách trực quan và có hệ thống.
 
-## React Compiler
+## Tính năng chính
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Bản đồ tương tác các địa điểm du lịch tại Việt Nam
+- Tìm kiếm và lọc địa điểm
+- Xem thông tin chi tiết từng điểm đến
+- Liên kết địa điểm với các chủ đề văn hóa, lịch sử và di sản
+- Gợi ý địa điểm theo sở thích người dùng
+- Xây dựng hành trình tham quan
+- Thuyết minh đa ngôn ngữ
+- Audio Guide
+- Quét QR để mở nội dung thuyết minh
+- Hỗ trợ nội dung và dữ liệu offline
 
-## Expanding the ESLint configuration
+## Định hướng phát triển
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GoToHorizon hướng đến việc kết hợp:
+
+- Knowledge Map
+- Personalized Recommendation System
+- Travel Planning
+- Cultural Heritage Data
+- Multilingual Audio Guide
+
+Các chức năng dự kiến tiếp tục phát triển:
+
+- Gợi ý địa điểm cá nhân hóa bằng Machine Learning
+- GPS và Geofence
+- Tự động phát thuyết minh khi người dùng đến gần địa điểm
+- Offline Audio Package
+- Đồng bộ dữ liệu từ CMS
+- Analytics lượt nghe và hành vi khám phá
+- Dashboard quản lý nội dung và dữ liệu sử dụng
+- Tour và tuyến tham quan từ Content Layer/CMS
+
+## Công nghệ
+
+Phiên bản hiện tại sử dụng các công nghệ chính:
+
+- React
+- Vite
+- TypeScript / JavaScript
+- HTML / CSS
+- Interactive Map
+- Audio / TTS
+- QR Code
+- Local Content Layer
+
+## Cấu trúc dự án
+
+```text
+.
+├── public/
+├── scripts/
+├── src/
+├── package.json
+├── vite.config.js
+└── README.md
